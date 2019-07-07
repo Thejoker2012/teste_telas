@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:teste_telas/ui/HomePage.dart';
 import 'package:teste_telas/ui/MenuBarra.dart';
 import 'package:teste_telas/ui/WidgetContainer.dart';
+import 'package:teste_telas/ui/WidgetPadding.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WidgetsContainer(title: 'Teste de Telas'),
+      home: WidgetPadding(title: 'Teste de Telas'),
     );
   }
 }
