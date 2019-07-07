@@ -4,6 +4,7 @@ import 'package:teste_telas/ui/MenuBarra.dart';
 import 'package:teste_telas/ui/WidgetContainer.dart';
 import 'package:teste_telas/ui/WidgetPadding.dart';
 import 'package:teste_telas/ui/WidgetAlign.dart';
+import 'package:teste_telas/ui/WidgetFittedBox.dart';
 
 void main() => runApp(MyApp());
 
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WidgetAlign(title: 'Teste de Telas'),
+      home: WidgetFittedBox(title: 'Teste de Telas'),
     );
   }
 }
