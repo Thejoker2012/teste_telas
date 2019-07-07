@@ -8,6 +8,7 @@ class WidgetColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      padding: EdgeInsets.all(60),
       child: Column(
         children: <Widget>[
           Text('Deliver features faster'),
