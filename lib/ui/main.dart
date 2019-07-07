@@ -9,6 +9,8 @@ import 'package:teste_telas/ui/WidgetColumn.dart';
 import 'package:teste_telas/ui/WidgetStack.dart';
 import 'package:teste_telas/ui/WidgetGrid.dart';
 import 'package:teste_telas/ui/WidgetWrap.dart';
+import 'package:teste_telas/ui/WidgetExpanded.dart';
+
 
 
 
@@ -24,7 +26,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: WidgetWrap(title: 'Teste de Telas'),
+      home: WidgetExpanded(title: 'Teste de Telas'),
     );
   }
 }
